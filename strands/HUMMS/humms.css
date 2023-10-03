@@ -1,0 +1,52 @@
+h1, p {
+	font-family: verdana;
+}
+
+body {
+  font-family: verdana;
+	background: url('img_books.jpg');
+}
+
+div {
+  width: 50%;
+  height: 50%;
+  background: rgba(135, 206, 235, 0.5);
+  border: 5px solid lightgreen;
+  margin: auto;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid black;
+  margin: 5px;
+  font-family: verdana;
+}
+
+button:hover {
+  background: rgb(192, 128, 129);
+  color: white;
+}
+
+button:active {
+  background: white;
+  color: black;
+}
+
+.version {
+  width: 50px;
+  height: 30px;
+  color: black;
+}
+
+a {
+  font-family: verdana;
+}
+
+button.search {
+  width: auto;
+  height: 30px;
+}
